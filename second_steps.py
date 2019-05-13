@@ -27,18 +27,18 @@ print(sat_database.keys())
 # 5) If the satellite name is in the database, print a meaningful message containing the satellite name and it's resolution [2P] 
 
 
-satellit = input ("Please name the satellite of which you want to know the resolution.")
+satellite = input ()
 
-if satellit == "METEOSAT":
+if satellite == "METEOSAT":
     print ("METEOSAT has a resolution of 3000 Meters.")
-elif satellit == "LANDSAT":
+elif satellite == "LANDSAT":
     print ("LANDSAT has a resolution of 30 Meters.")
-elif satellit == "MODIS":
+elif satellite == "MODIS":
     print ("MODIS has a resolution of 500 Meters.")
-elif satellit == "GOES":
+elif satellite == "GOES":
     print ("GOES has a resolution of 2000 Meters.")
-elif satellit == "worldview":
+elif satellite == "worldview":
     print ("worldview has a resolution of 0.31 Meters.")
 else:
-print ("No satellite available !")
+    print ("No satellite available !")
 
