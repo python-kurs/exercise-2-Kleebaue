@@ -27,6 +27,8 @@ print(sat_database.keys())
 # 5) If the satellite name is in the database, print a meaningful message containing the satellite name and it's resolution [2P] 
 
 
+print("Enter the satellite name from which you would like to know the resolution !")
+
 satellite = input ()
 
 if satellite == "METEOSAT":
